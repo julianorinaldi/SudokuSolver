@@ -127,6 +127,7 @@
             this.A9 = new System.Windows.Forms.TextBox();
             this.A8 = new System.Windows.Forms.TextBox();
             this.A7 = new System.Windows.Forms.TextBox();
+            this.btnLoad = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // A1
@@ -1137,11 +1138,22 @@
             this.A7.TabIndex = 69;
             this.A7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // btnLoad
+            // 
+            this.btnLoad.Location = new System.Drawing.Point(616, 541);
+            this.btnLoad.Name = "btnLoad";
+            this.btnLoad.Size = new System.Drawing.Size(75, 23);
+            this.btnLoad.TabIndex = 99;
+            this.btnLoad.Text = "Check";
+            this.btnLoad.UseVisualStyleBackColor = true;
+            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
+            // 
             // FormInput
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(691, 588);
+            this.ClientSize = new System.Drawing.Size(720, 588);
+            this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.I9);
             this.Controls.Add(this.I8);
             this.Controls.Add(this.I7);
@@ -1349,6 +1361,7 @@
         private System.Windows.Forms.TextBox A9;
         private System.Windows.Forms.TextBox A8;
         private System.Windows.Forms.TextBox A7;
+        private System.Windows.Forms.Button btnLoad;
     }
 }
 
